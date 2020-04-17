@@ -1,20 +1,18 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+title:       Publications
+email:       dushyant.bgs@gmail.com
+author:      Dushyant Rathore
+description: "A list of personal publications"
+baseurl:     "/publications"
+url:         "https://dushyantrathore.github.io/"
 date_format: "%b %-d, %Y"
-header_pages:
- - about.md
- - contact.html
+
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics: UA-53548208-1
+google_analytics:
 google_tag_manager:
 # Bing services
 bing_verification:
@@ -39,10 +37,6 @@ fb_page_id:
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname:
-
-# txtpen post comments
-# (leave blank to disable txtpen)
-txtpen_sitename:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
@@ -129,4 +123,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Rakefile
+  - README.md
+  - screenshot.png
   - vendor
